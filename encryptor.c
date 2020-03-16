@@ -111,7 +111,7 @@ int main() {
         /*  for ( int w=strlen(inputSecret),e=0 ; w < strlen(inputText) ; w++,e++){
                 inputSecret[w] = inputSecret[e];
             }   
-            
+       
             old code (didn't work properly) so i changed it to below version. */
             
             while ( strlen(inputSecret) < strlen(inputText) ){
@@ -150,7 +150,6 @@ int main() {
         strcat(cipher,vigenere[textNum-1][secretNum-1]); // -1 because array index
         strcat(cipher," "); // to include space's between each emoji as spaces between letter of each word
     }    
-
 
     puts(cipher);   
     // for ( int n = 0 ; n < strlen(inputText)-1 ; n++ ){
